@@ -1,0 +1,43 @@
+:root {
+  --amarelo1: #febe01;
+  --amarelo2: #332200;
+  --preto: #111;
+  --cinza: #b2b2b2;
+}
+body {
+  font-family: Arial;
+}
+
+.produto {
+  background-color: var(--preto);
+  color: white;
+  padding: 30px;
+  margin: 20px 5%;
+  text-align: left;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+
+p {
+  color: var(--cinza);
+}
+
+span {
+  color: var(--amarelo1);
+}
+
+a {
+  display: inline-block;
+  background: var(--amarelo1);
+  color: var(--amarelo2);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
